@@ -43,24 +43,6 @@ cloud-computing-aws-igg/
 
 ---
 
-## 🚀 How to Use This Guide
-
-1. **Start with [01 - Getting Started](./01-getting-started/README.md)** — You must complete this before anything else.
-2. **Follow topics in order** — Each section builds on the previous one.
-3. **Watch for ⚠️ warnings** — These highlight steps that beginners commonly miss.
-4. **Use the AWS Free Tier** — All exercises in this guide use resources covered by the [AWS Free Tier](https://aws.amazon.com/free/).
-
----
-
-## 📋 Prerequisites
-
-- A computer with internet access
-- A valid email address
-- A credit/debit card (for AWS account verification — **you won't be charged if you stay within the Free Tier**)
-- Basic familiarity with using a web browser
-
----
-
 ## 🔗 Official AWS Resources
 
 - 📖 [AWS Documentation](https://docs.aws.amazon.com/)
@@ -78,12 +60,6 @@ cloud-computing-aws-igg/
 | [freeCodeCamp.org](https://www.youtube.com/@freecodecamp) | Full AWS courses for beginners |
 | [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana) | Practical DevOps and cloud tutorials |
 | [Traversy Media](https://www.youtube.com/@TraversyMedia) | Project-based AWS walkthroughs |
-
----
-
-## ⚡ Quick Start
-
-> New to AWS? Jump directly to **[01 - Getting Started →](./01-getting-started/README.md)**
 
 ---
 
