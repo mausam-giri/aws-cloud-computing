@@ -9,22 +9,32 @@ A beginner-friendly, step-by-step guide to learning **Amazon Web Services (AWS)*
 ## 📁 Directory Structure
 
 ```
-cloud-computing-aws-igg/
-├── README.md                    ← You are here (Start here!)
+aws-cloud-computing/
+├── README.md                              ← You are here (Start here!)
+├── agent.rules.md                         ← Agent guiding principles and standards
 ├── 01-getting-started/
-│   └── README.md                ← AWS account setup & console walkthrough
+│   └── README.md                          ← AWS account setup & console walkthrough
 ├── 02-iam/
-│   └── README.md                ← Identity & Access Management (users, roles, policies)
+│   └── README.md                          ← Identity & Access Management (users, roles, policies)
 ├── 03-ec2/
-│   └── README.md                ← Elastic Compute Cloud (virtual servers)
+│   └── README.md                          ← Elastic Compute Cloud (virtual servers)
 ├── 04-s3/
-│   └── README.md                ← Simple Storage Service (object storage)
+│   └── README.md                          ← Simple Storage Service (object storage)
 ├── 05-vpc/
-│   └── README.md                ← Virtual Private Cloud (networking)
+│   └── README.md                          ← Virtual Private Cloud (networking)
 ├── 06-rds/
-│   └── README.md                ← Relational Database Service (managed databases)
-└── 07-lambda/
-    └── README.md                ← AWS Lambda (serverless functions)
+│   └── README.md                          ← Relational Database Service (managed databases)
+├── 07-lambda/
+│   └── README.md                          ← AWS Lambda (serverless functions)
+├── 08-advanced-networking/
+│   ├── README.md                          ← Advanced networking index
+│   ├── transit-gateway.md                 ← Transit Gateway setup
+│   ├── transit-gateway-multiple-routing-tables.md  ← TGW with multiple route tables
+│   ├── transit-gateway-firewall-endpoint.md        ← TGW + Network Firewall integration
+│   ├── firewall-setup.md                  ← AWS Network Firewall setup
+│   └── vpc-endpoint.md                    ← VPC Endpoints (Gateway, Interface, GWLB)
+└── 09-eks/
+    └── README.md                          ← Elastic Kubernetes Service (EKS)
 ```
 
 ---
@@ -40,6 +50,8 @@ cloud-computing-aws-igg/
 | 5 | [VPC](./05-vpc/README.md) | Build isolated networks with subnets, routing, and security groups |
 | 6 | [RDS](./06-rds/README.md) | Deploy and connect to managed relational databases |
 | 7 | [Lambda](./07-lambda/README.md) | Write and deploy serverless functions triggered by events |
+| 8 | [Advanced Networking](./08-advanced-networking/README.md) | Transit Gateway, Network Firewall, and VPC Endpoints |
+| 9 | [EKS](./09-eks/README.md) | Elastic Kubernetes Service on AWS |
 
 ---
 
@@ -71,8 +83,8 @@ cloud-computing-aws-igg/
 
 | Topic | Description |
 |---|---|
-| [Transit Gateway – How to Setup](./transit-gateway.md) | Step-by-step guide to setting up an AWS Transit Gateway |
-| [Transit Gateway with Multiple Routing Tables](./transit-gateway-multiple-routing-tables.md) | Advanced TGW configuration with multiple route tables for traffic segmentation |
-| [Firewall Setup](./firewall-setup.md) | Setting up and configuring AWS Network Firewall |
-| [Transit Gateway and Firewall with Endpoint](./transit-gateway-firewall-endpoint.md) | Centralized traffic inspection using Transit Gateway and Network Firewall |
-| [VPC Endpoint](./vpc-endpoint.md) | Private connectivity to AWS services using VPC Endpoints |
+| [Transit Gateway – How to Setup](./08-advanced-networking/transit-gateway.md) | Step-by-step guide to setting up an AWS Transit Gateway |
+| [Transit Gateway with Multiple Routing Tables](./08-advanced-networking/transit-gateway-multiple-routing-tables.md) | Advanced TGW configuration with multiple route tables for traffic segmentation |
+| [Firewall Setup](./08-advanced-networking/firewall-setup.md) | Setting up and configuring AWS Network Firewall |
+| [Transit Gateway and Firewall with Endpoint](./08-advanced-networking/transit-gateway-firewall-endpoint.md) | Centralized traffic inspection using Transit Gateway and Network Firewall |
+| [VPC Endpoint](./08-advanced-networking/vpc-endpoint.md) | Private connectivity to AWS services using VPC Endpoints |
